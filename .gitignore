@@ -1,7 +1,17 @@
+
+# Virtual environment
 env/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Python cache
 __pycache__/
+
+# Mac files
 .DS_Store
 
-data/raw/
-data/processed/
+# All datasets
+data/
+*.csv
+*.zip
